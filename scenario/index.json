@@ -43,6 +43,44 @@
             "courseData": "courseBase.sh",
             "credits": ""
         },
+        "assets": {
+            "client": [
+              {
+                "file": "dashboard.yaml",
+                "target": "~/"
+              },
+              {
+                "file": "kube-system.json",
+                "target": "~/"
+              },
+              {
+                "file": "skydns-rc.yaml",
+                "target": "~/"
+              },
+              {
+                "file": "skydns-svc.yaml",
+                "target": "~/"
+              }
+            ],
+            "host01": [
+              {
+                "file": "dashboard.yaml",
+                "target": "~/"
+              },
+              {
+                "file": "kube-system.json",
+                "target": "~/"
+              },
+              {
+                "file": "skydns-rc.yaml",
+                "target": "~/"
+              },
+              {
+                "file": "skydns-svc.yaml",
+                "target": "~/"
+              }
+            ]
+          },
         "finish": {
             "text": "finish.md"
         }
