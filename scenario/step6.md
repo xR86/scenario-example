@@ -7,7 +7,7 @@ To start a container you define a replicate controller and a service in yaml fil
 For now use the create command to launch the containers.
 
 `
-kubectl create -f ~/kube-system.json
-kubectl create -f ~/skydns-rc.yaml
-kubectl create -f ~/skydns-svc.yaml
+kubectl create -f ~/tutorial/kube-system.json
+kubectl create -f ~/tutorial/skydns-rc.yaml
+kubectl create -f ~/tutorial/skydns-svc.yaml
 `{{execute}}

@@ -47,37 +47,37 @@
             "client": [
               {
                 "file": "dashboard.yaml",
-                "target": "~/tutorial/"
+                "target": "~/"
               },
               {
                 "file": "kube-system.json",
-                "target": "~/tutorial/"
+                "target": "~/"
               },
               {
                 "file": "skydns-rc.yaml",
-                "target": "~/tutorial/"
+                "target": "~/"
               },
               {
                 "file": "skydns-svc.yaml",
-                "target": "~/tutorial/"
+                "target": "~/"
               }
             ],
             "host01": [
               {
                 "file": "dashboard.yaml",
-                "target": "~/tutorial/"
+                "target": "~/"
               },
               {
                 "file": "kube-system.json",
-                "target": "~/tutorial/"
+                "target": "~/"
               },
               {
                 "file": "skydns-rc.yaml",
-                "target": "~/tutorial/"
+                "target": "~/"
               },
               {
                 "file": "skydns-svc.yaml",
-                "target": "~/tutorial/"
+                "target": "~/"
               }
             ]
           },
