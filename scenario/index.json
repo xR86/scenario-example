@@ -1,5 +1,5 @@
 {
-    "title": "Launch Kubernetes Cluster",
+    "title": "Launch Kubernetes Cluster - a Primer",
     "description": "Learn how to launch a Kubernetes cluster including DNS and Kube UI",
     "difficulty": "beginner",
     "time": "10-15 minutes",
