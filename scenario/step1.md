@@ -11,6 +11,8 @@ docker run -d --name=etcd \
     --data-dir=/var/etcd/data
 `{{execute}}
 
+# TODO: refactor to Dockerfile !!!
+
 The _net=host_ means the container will share the same network as the host, removing the need to map ports.
 
 In production you would want to run etcd on three separate machines to ensure maximum availability.

@@ -1,8 +1,8 @@
 {
-    "title": "Launch Kubernetes Cluster - a Primer",
+    "title": "Launching a Kubernetes Cluster - a Primer",
     "description": "Learn how to launch a Kubernetes cluster including DNS and Kube UI",
     "difficulty": "beginner",
-    "time": "10-15 minutes",
+    "time": "15-20 minutes",
     "details": {
         "steps": [
             {
@@ -90,7 +90,7 @@
     ],
     "environment": {
         "uilayout": "terminal",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+        "uimessage1": "\u001b[32mInteractive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
     },
     "backend": {
         "port": 8080,
