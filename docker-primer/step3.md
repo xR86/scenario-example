@@ -23,6 +23,27 @@ So, line by line, what does this file do ?
 `EXPOSE  8081` - exposes port 8081 outside the container
 `CMD ["npm","start"]  #CMD ["node","app.js"]` - runs the service you need
 
-<!-- ### Docker Compose -->
+Now lets try to build a container:
+`git clone https://github.com/xR86/cloud-presentation`{{execute}}
+`docker build -t "dummy server" .`{{execute}}
 
 
+### Docker Compose
+
+```
+db:
+  image: mongo
+  ports:
+    - 27017
+web:
+  build: .
+  command: npm start
+  volumes:
+    - .:/myapp
+  ports:
+    - 3000:3000
+  links:
+    - db
+  environment:
+    PORT: 3000
+```
