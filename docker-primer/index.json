@@ -6,11 +6,15 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Useful commands",
+                "title": "Step 1 - Useful commands - Part 1",
                 "text": "step1.md"
             },
             {
-                "title": "Step 2 - Dockerfiles",
+                "title": "Step 2 - Useful commands - Part 2",
+                "text": "step2.md"
+            },
+            {
+                "title": "Step 3 - Dockerfiles",
                 "text": "step2.md"
             }
         ],

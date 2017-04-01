@@ -1,17 +1,21 @@
 
-## Dockerfiles
+## Useful commands in Docker
 
-**Anatomy of a Dockerfile**
+### General wrappers for classic Linux commands
 
-```
-FROM nodesource/node:4.4
+Check running containers:
+`docker ps`{{execute}}
 
-ADD package.json package.json  
-RUN npm install  
-ADD . .
+Check running processes in specific container:
+`docker top <name>`
 
-EXPOSE  8081
-CMD ["npm","start"]  #CMD ["node","app.js"]  
-```
+Forward sync - from host to guest:
+`docker cp ./ <name>:/`
 
+Backward sync - from guest to host:
+`docker cp <name>:/<some_file> ./`
+  
+
+**The basics** of Docker (other than this): https://zeroturnaround.com/rebellabs/docker-commands-and-best-practices-cheat-sheet/
+**Slightly more than needed**, you can find more useful commands here: [github.com/wsargent/docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet)
 
