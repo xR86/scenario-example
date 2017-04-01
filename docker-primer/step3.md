@@ -23,4 +23,6 @@ So, line by line, what does this file do ?
 `EXPOSE  8081` - exposes port 8081 outside the container
 `CMD ["npm","start"]  #CMD ["node","app.js"]` - runs the service you need
 
-### 
+<!-- ### Docker Compose -->
+
+
