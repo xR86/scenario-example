@@ -30,6 +30,7 @@ Now lets try to build a container:
 
 ### Docker Compose
 
+Example of a Node.js Express + MongoDB web app configuration:
 ```
 db:
   image: mongo
